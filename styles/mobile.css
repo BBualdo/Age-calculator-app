@@ -1,0 +1,80 @@
+@media (max-width: 400px) {
+
+main {
+  background-color: var(--white);
+  border-radius: 25px;
+  border-bottom-right-radius: 100px;
+  margin: 36px 0 80px 0;
+  padding: 0 24px;
+}
+
+.top-side {
+  border-bottom: 1px solid var(--lightGrey);
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 64px;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+form > label {
+  color: var(--smokeyGrey);
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+form > input {
+  border: 1px solid var(--lightGrey);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 4px;
+  padding: 12px 16px;
+  width: 88px;
+}
+
+form > p {
+  width: 5rem;
+}
+
+.calculate-button {
+  align-items: center;
+  bottom: -32px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+}
+
+button {
+  background-color: var(--purple);
+  background-image: url(../assets/images/icon-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 4rem;
+  transition: opacity 0.15s, background-color 0.1s;
+  width: 4rem;
+}
+
+.bot-side {
+  padding-bottom: 52px;
+  padding-top: 32px;
+}
+
+.bot-side > p {
+  font-size: 52px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 60px;
+}
+
+}

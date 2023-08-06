@@ -1,0 +1,66 @@
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+
+--purple: hsl(259, 100%, 65%);
+--lightRed: hsl(0, 100%, 67%);
+
+  /*  ### Neutral */
+
+--white: hsl(0, 0%, 100%);
+--offWhite: hsl(0, 0%, 94%);
+--lightGrey: hsl(0, 0%, 86%);
+--smokeyGrey: hsl(0, 1%, 44%);
+--offBlack: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--offWhite);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+form > p {
+  color: var(--lightRed);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* instead of display hidden u can leave empty <p>'s and add text by innerHTML */
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  background-color: var(--offBlack);
+  opacity: 1;
+}
+
+.bot-side span {
+  color: var(--purple);
+}
+
+.input-error {
+  border-color: var(--lightRed);
+}
+
+.label-error {
+  color: var(--lightRed);
+}
+
